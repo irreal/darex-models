@@ -6,8 +6,6 @@
 
 > Data Transfer Objects for the Darex API
 
-![Downloads](https://img.shields.io/npm/dm/@darex/models.svg)
-
 ---
 
 ## ✨ Features
@@ -18,7 +16,7 @@
 ## 🔧 Installation
 
 ```sh
-npm install @darex/models --save
+npm install @irreal/darex-models --save
 ```
 
 ## 🎬 Getting started

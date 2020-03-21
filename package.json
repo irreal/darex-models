@@ -1,5 +1,5 @@
 {
-  "name": "@darex/models",
+  "name": "@irreal/darex-models",
   "version": "1.0.0",
   "description": "Data Transfer Objects for the Darex API",
   "main": "build/index.js",
@@ -13,6 +13,10 @@
   "files": [
     "build"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irreal/darex-models"
+  },
   "keywords": [],
   "author": "Milos Spasojevic",
   "license": "MIT",
