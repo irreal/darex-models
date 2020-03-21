@@ -1,0 +1,1 @@
+{"version":3,"file":"index.es.js","sources":["../src/business-partner.ts"],"sourcesContent":["export class BusinessPartner {\r\n    name: string = \"\";\r\n    id: number = 1;\r\n    vat: string = \"\";\r\n}"],"names":[],"mappings":";IAAA;QACI,SAAI,GAAW,EAAE,CAAC;QAClB,OAAE,GAAW,CAAC,CAAC;QACf,QAAG,GAAW,EAAE,CAAC;KACpB;IAAD,sBAAC;AAAD,CAAC;;;;"}
