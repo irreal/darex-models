@@ -40,12 +40,12 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-typescript2": "^0.26.0",
     "ts-jest": "^25.2.1",
-    "ts-node": "^8.7.0",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@irreal/decorator-mapper": "^1.0.0",
     "reflect-metadata": "^0.1.13"
   }
 }
