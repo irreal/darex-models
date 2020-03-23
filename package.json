@@ -8,10 +8,20 @@
   "scripts": {
     "build": "rollup -c",
     "run": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "files": [
-    "build"
+    "build",
+    "LICENCE.md"
   ],
   "repository": {
     "type": "git",
@@ -23,6 +33,7 @@
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
+    "prettier": "^2.0.1",
     "rollup": "^2.1.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -30,6 +41,8 @@
     "rollup-plugin-typescript2": "^0.26.0",
     "ts-jest": "^25.2.1",
     "ts-node": "^8.7.0",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
